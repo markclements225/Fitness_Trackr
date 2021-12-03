@@ -1,0 +1,191 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+#navbar {
+  align-items: center;
+  display: flex;
+  flex-direction: column-reverse;
+  /* height: auto; */
+  position: relative;
+  min-width: 320px;
+  z-index: 999;
+  width: 100%;
+  background: black;
+  box-shadow: 0 5px 10px 0 rgb(0 0 0 / 80%);
+  color: white;
+  height: 120px;
+  /* font-size: 100%; */
+}
+
+#title {
+  margin-left: 20px;
+  /* float: left; */
+  order: 1;
+  width: auto;
+  font-size: 1.78em;
+}
+
+.allRoutines,
+.homepage,
+.allActivities,
+.myRoutines,
+.loginPage,
+.register,
+.createRoutinePage,
+.createActivityPage,
+.addActivity {
+  margin: 50px;
+}
+
+.thirsty,
+.createNewActivity,
+#createNewRoutine {
+  border-radius: 1px;
+  box-shadow: 0 5px 10px 0 rgb(0 0 0 / 50%);
+  height: 30px;
+  font-weight: bold;
+  font-size: 15px;
+}
+
+.thirsty {
+  width: 120px;
+  font-size: 15px;
+}
+
+.thirsty:hover,
+.createNewActivity:hover,
+.createNewRoutine:hover {
+  color: rgb(108, 27, 184);
+}
+
+#links :hover {
+  color: yellow;
+}
+
+.navLinks {
+  text-decoration: none;
+  padding: 15px;
+  font-size: 22px;
+  font-weight: bold;
+}
+
+.loginPage,
+.register,
+.createActivityPage,
+.createRoutinePage,
+.addActivity,
+.editActivity,
+.editRoutine,
+.homepage {
+  display: block;
+  text-align: center;
+  position: relative;
+  margin: 120px auto;
+}
+
+.loginPage input,
+.createActivityPage input,
+.createRoutinePage input {
+  margin-bottom: 20px;
+  font-size: 18px;
+  width: 300px;
+  height: 30px;
+  text-align: center;
+}
+
+.register input {
+  margin-bottom: 20px;
+  font-size: 20px;
+  width: 300px;
+  height: 30px;
+  text-align: center;
+}
+
+#isPublic {
+  height: 15px;
+}
+
+.addActivity input {
+  margin-bottom: 20px;
+  font-size: 15px;
+  width: 200px;
+  height: 25px;
+  text-align: center;
+}
+
+.editActivity input,
+.editRoutine input {
+  margin-bottom: 20px;
+  font-size: 15px;
+  width: 200px;
+  height: 28px;
+  text-align: center;
+}
+
+.routineInfo,
+.myRoutineInfo,
+.activitiesInfo {
+  /* display: flex;
+  flex-direction: column; */
+  position: relative;
+  width: auto;
+  background: lightgray;
+  box-shadow: 0 5px 10px 0 rgb(0 0 0 / 80%);
+  color: black;
+  word-break: break-word;
+  margin-top: 10px;
+  padding-left: 20px;
+  overflow: hidden;
+  border-radius: 10px;
+  padding-bottom: 10px;
+}
+
+.addRoutine {
+  max-width: 110px;
+}
+
+.createActivityPage,
+.createRoutinePage,
+.addActivity,
+.editRoutine,
+.editActivity {
+  /* display: flex;
+  flex-direction: column; */
+  position: relative;
+  max-width: 520px;
+  background: lightgray;
+  box-shadow: 0 5px 10px 0 rgb(0 0 0 / 80%);
+  color: black;
+  word-break: break-word;
+  margin-top: 50px;
+  padding-left: 20px;
+  overflow: hidden;
+  border-radius: 10px;
+  padding-bottom: 40px;
+  padding-top: 30px;
+}
+
+.routinesTitle,
+.activitiesTitle,
+.allRoutinesTitle {
+  text-align: center;
+}
+
+#createNewRoutine,
+.createNewActivity {
+  margin-bottom: 15px;
+  font-size: 18px;
+  width: 200px;
+  height: 35px;
+  text-align: center;
+  margin-inline: auto;
+  display: block;
+  text-align: center;
+  padding-bottom: 5px;
+}
